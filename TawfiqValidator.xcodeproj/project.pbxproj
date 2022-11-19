@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		FAB9E697292993F5007999B7 /* TawfiqValidator.docc in Sources */ = {isa = PBXBuildFile; fileRef = FAB9E696292993F5007999B7 /* TawfiqValidator.docc */; };
 		FAB9E698292993F5007999B7 /* TawfiqValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB9E695292993F5007999B7 /* TawfiqValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAB9E69F292994EF007999B7 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB9E69E292994EF007999B7 /* Validator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FAB9E692292993F5007999B7 /* TawfiqValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TawfiqValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB9E695292993F5007999B7 /* TawfiqValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TawfiqValidator.h; sourceTree = "<group>"; };
 		FAB9E696292993F5007999B7 /* TawfiqValidator.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = TawfiqValidator.docc; sourceTree = "<group>"; };
+		FAB9E69E292994EF007999B7 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 		FAB9E694292993F5007999B7 /* TawfiqValidator */ = {
 			isa = PBXGroup;
 			children = (
+				FAB9E69E292994EF007999B7 /* Validator.swift */,
 				FAB9E695292993F5007999B7 /* TawfiqValidator.h */,
 				FAB9E696292993F5007999B7 /* TawfiqValidator.docc */,
 			);
@@ -132,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB9E69F292994EF007999B7 /* Validator.swift in Sources */,
 				FAB9E697292993F5007999B7 /* TawfiqValidator.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
