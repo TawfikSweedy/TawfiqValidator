@@ -7,16 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1585329BB373E9AFD3BD7AC3 /* Pods_TawfiqValidator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 609120BB7A0D27C80D4AA06D /* Pods_TawfiqValidator.framework */; };
 		FAB9E697292993F5007999B7 /* TawfiqValidator.docc in Sources */ = {isa = PBXBuildFile; fileRef = FAB9E696292993F5007999B7 /* TawfiqValidator.docc */; };
 		FAB9E698292993F5007999B7 /* TawfiqValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB9E695292993F5007999B7 /* TawfiqValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FAB9E69F292994EF007999B7 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB9E69E292994EF007999B7 /* Validator.swift */; };
+		FAB9E6CF2929A5AD007999B7 /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB9E6C62929A5AC007999B7 /* EndPoints.swift */; };
+		FAB9E6D02929A5AD007999B7 /* BGServicesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB9E6C72929A5AC007999B7 /* BGServicesManager.swift */; };
+		FAB9E6D12929A5AD007999B7 /* URLRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB9E6C82929A5AC007999B7 /* URLRequestBuilder.swift */; };
+		FAB9E6D22929A5AD007999B7 /* AuthServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB9E6C92929A5AC007999B7 /* AuthServices.swift */; };
+		FAB9E6D32929A5AD007999B7 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB9E6CB2929A5AC007999B7 /* ImageDownloader.swift */; };
+		FAB9E6D42929A5AD007999B7 /* DownloadError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB9E6CC2929A5AC007999B7 /* DownloadError.swift */; };
+		FAB9E6D52929A5AD007999B7 /* BGNetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB9E6CD2929A5AC007999B7 /* BGNetworkHelper.swift */; };
+		FAB9E6D62929A5AD007999B7 /* MainServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB9E6CE2929A5AC007999B7 /* MainServices.swift */; };
+		FAB9E6D82929A6E0007999B7 /* BGDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB9E6D72929A6E0007999B7 /* BGDecoder.swift */; };
+		FAB9E6DA2929A6E8007999B7 /* BGConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB9E6D92929A6E8007999B7 /* BGConstants.swift */; };
+		FAB9E6DC2929A72B007999B7 /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB9E6DB2929A72B007999B7 /* ResponseModel.swift */; };
+		FAB9E6DE2929A732007999B7 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB9E6DD2929A732007999B7 /* LoginModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D5EBE80380E06659C099EB1 /* Pods-TawfiqValidator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TawfiqValidator.release.xcconfig"; path = "Target Support Files/Pods-TawfiqValidator/Pods-TawfiqValidator.release.xcconfig"; sourceTree = "<group>"; };
+		609120BB7A0D27C80D4AA06D /* Pods_TawfiqValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TawfiqValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B17FFC02D1D5BF753939F545 /* Pods-TawfiqValidator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TawfiqValidator.debug.xcconfig"; path = "Target Support Files/Pods-TawfiqValidator/Pods-TawfiqValidator.debug.xcconfig"; sourceTree = "<group>"; };
 		FAB9E692292993F5007999B7 /* TawfiqValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TawfiqValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB9E695292993F5007999B7 /* TawfiqValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TawfiqValidator.h; sourceTree = "<group>"; };
 		FAB9E696292993F5007999B7 /* TawfiqValidator.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = TawfiqValidator.docc; sourceTree = "<group>"; };
 		FAB9E69E292994EF007999B7 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		FAB9E6C62929A5AC007999B7 /* EndPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
+		FAB9E6C72929A5AC007999B7 /* BGServicesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGServicesManager.swift; sourceTree = "<group>"; };
+		FAB9E6C82929A5AC007999B7 /* URLRequestBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLRequestBuilder.swift; sourceTree = "<group>"; };
+		FAB9E6C92929A5AC007999B7 /* AuthServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthServices.swift; sourceTree = "<group>"; };
+		FAB9E6CB2929A5AC007999B7 /* ImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		FAB9E6CC2929A5AC007999B7 /* DownloadError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadError.swift; sourceTree = "<group>"; };
+		FAB9E6CD2929A5AC007999B7 /* BGNetworkHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGNetworkHelper.swift; sourceTree = "<group>"; };
+		FAB9E6CE2929A5AC007999B7 /* MainServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainServices.swift; sourceTree = "<group>"; };
+		FAB9E6D72929A6E0007999B7 /* BGDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGDecoder.swift; sourceTree = "<group>"; };
+		FAB9E6D92929A6E8007999B7 /* BGConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGConstants.swift; sourceTree = "<group>"; };
+		FAB9E6DB2929A72B007999B7 /* ResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		FAB9E6DD2929A732007999B7 /* LoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,17 +52,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1585329BB373E9AFD3BD7AC3 /* Pods_TawfiqValidator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		517265949CB70D41F5D57BE6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B17FFC02D1D5BF753939F545 /* Pods-TawfiqValidator.debug.xcconfig */,
+				1D5EBE80380E06659C099EB1 /* Pods-TawfiqValidator.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D9FAF1724F8C89D0D1F944BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				609120BB7A0D27C80D4AA06D /* Pods_TawfiqValidator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FAB9E688292993F5007999B7 = {
 			isa = PBXGroup;
 			children = (
 				FAB9E694292993F5007999B7 /* TawfiqValidator */,
 				FAB9E693292993F5007999B7 /* Products */,
+				517265949CB70D41F5D57BE6 /* Pods */,
+				D9FAF1724F8C89D0D1F944BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,11 +97,39 @@
 		FAB9E694292993F5007999B7 /* TawfiqValidator */ = {
 			isa = PBXGroup;
 			children = (
+				FAB9E6C52929A5AC007999B7 /* Networking */,
 				FAB9E69E292994EF007999B7 /* Validator.swift */,
 				FAB9E695292993F5007999B7 /* TawfiqValidator.h */,
 				FAB9E696292993F5007999B7 /* TawfiqValidator.docc */,
 			);
 			path = TawfiqValidator;
+			sourceTree = "<group>";
+		};
+		FAB9E6C52929A5AC007999B7 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				FAB9E6DD2929A732007999B7 /* LoginModel.swift */,
+				FAB9E6DB2929A72B007999B7 /* ResponseModel.swift */,
+				FAB9E6D92929A6E8007999B7 /* BGConstants.swift */,
+				FAB9E6D72929A6E0007999B7 /* BGDecoder.swift */,
+				FAB9E6C62929A5AC007999B7 /* EndPoints.swift */,
+				FAB9E6C72929A5AC007999B7 /* BGServicesManager.swift */,
+				FAB9E6C82929A5AC007999B7 /* URLRequestBuilder.swift */,
+				FAB9E6C92929A5AC007999B7 /* AuthServices.swift */,
+				FAB9E6CA2929A5AC007999B7 /* NotificationsNetwork */,
+				FAB9E6CD2929A5AC007999B7 /* BGNetworkHelper.swift */,
+				FAB9E6CE2929A5AC007999B7 /* MainServices.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		FAB9E6CA2929A5AC007999B7 /* NotificationsNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				FAB9E6CB2929A5AC007999B7 /* ImageDownloader.swift */,
+				FAB9E6CC2929A5AC007999B7 /* DownloadError.swift */,
+			);
+			path = NotificationsNetwork;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +150,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAB9E69B292993F5007999B7 /* Build configuration list for PBXNativeTarget "TawfiqValidator" */;
 			buildPhases = (
+				DFC3381CD93AEEC3D5C60772 /* [CP] Check Pods Manifest.lock */,
 				FAB9E68D292993F5007999B7 /* Headers */,
 				FAB9E68E292993F5007999B7 /* Sources */,
 				FAB9E68F292993F5007999B7 /* Frameworks */,
@@ -130,12 +207,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DFC3381CD93AEEC3D5C60772 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TawfiqValidator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FAB9E68E292993F5007999B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB9E6D42929A5AD007999B7 /* DownloadError.swift in Sources */,
+				FAB9E6DE2929A732007999B7 /* LoginModel.swift in Sources */,
 				FAB9E69F292994EF007999B7 /* Validator.swift in Sources */,
+				FAB9E6D52929A5AD007999B7 /* BGNetworkHelper.swift in Sources */,
+				FAB9E6D12929A5AD007999B7 /* URLRequestBuilder.swift in Sources */,
+				FAB9E6D32929A5AD007999B7 /* ImageDownloader.swift in Sources */,
+				FAB9E6CF2929A5AD007999B7 /* EndPoints.swift in Sources */,
+				FAB9E6D62929A5AD007999B7 /* MainServices.swift in Sources */,
+				FAB9E6D22929A5AD007999B7 /* AuthServices.swift in Sources */,
+				FAB9E6D82929A6E0007999B7 /* BGDecoder.swift in Sources */,
+				FAB9E6DC2929A72B007999B7 /* ResponseModel.swift in Sources */,
+				FAB9E6D02929A5AD007999B7 /* BGServicesManager.swift in Sources */,
+				FAB9E6DA2929A6E8007999B7 /* BGConstants.swift in Sources */,
 				FAB9E697292993F5007999B7 /* TawfiqValidator.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +381,7 @@
 		};
 		FAB9E69C292993F5007999B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B17FFC02D1D5BF753939F545 /* Pods-TawfiqValidator.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -294,6 +409,7 @@
 		};
 		FAB9E69D292993F5007999B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D5EBE80380E06659C099EB1 /* Pods-TawfiqValidator.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

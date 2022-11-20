@@ -1,0 +1,6 @@
+framework module Pods_TawfiqValidator {
+  umbrella header "Pods-TawfiqValidator-umbrella.h"
+
+  export *
+  module * { export * }
+}
